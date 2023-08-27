@@ -5,6 +5,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class Fortune {
     
-	public String start()
+	@RequestMapping("/fortune")
+	public String start() {
+		
+	}
 	
 }
